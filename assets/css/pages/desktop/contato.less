@@ -1,0 +1,99 @@
+#contato {
+	#bg-intro {
+		background: url(../images/background-intro-contato.jpg);
+		width: 100%;
+		height: 250px;
+		.backgroundSizeCover;
+	} // #bg-intro
+	.content {
+		.center(1170px);
+		form {
+			float: left;
+			width: 529px;
+			margin-top: 55px;
+			margin-right: 59px;
+			::-webkit-input-placeholder { /* WebKit browsers */
+			    color:    @cinza4;
+			}
+			:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+			    color:    @cinza4;
+			    opacity:  1;
+			}
+			::-moz-placeholder { /* Mozilla Firefox 19+ */
+			    color:    @cinza4;
+			    opacity:  1;
+			}
+			:-ms-input-placeholder { /* Internet Explorer 10+ */
+			    color:    @cinza4;
+			}
+			fieldset {
+				&.field-grande {
+					legend {
+						font: 700 30px/30px 'Open Sans';
+						color: @azul-claro;
+						text-transform: uppercase;
+						margin-bottom: 48px;
+					} // legend
+					fieldset {
+						position: relative;
+						margin-bottom: 18px;
+						&:last-child {
+							margin-bottom: 0;
+						}
+						input[type="text"], textarea, input[type="email"] {
+							width: 100%;
+							display: block;
+							.borderRadius(3px);
+							border: 1px solid @cinza3;
+							display: block;
+							.outlineNone;
+							font: 800 14px 'Open Sans';
+							color: @cinza4;
+							text-transform: uppercase;
+						} // input[type="text"], textarea, input[type="email"]
+						input[type="text"], input[type="email"] {
+							height: 52px;
+							padding: 0 25px;
+						} // input[type="text"], input[type="email"]
+						textarea {
+							height: 202px;
+							padding: 25px;
+							resize: none;
+						} // textarea
+						button[type="submit"] {
+							.bt-padrao;
+							float: left;
+							width: 229px;
+							height: 51px;
+							background: @cinza5;
+							text-transform: uppercase;
+							color: @branco;
+							text-align: center;
+							span {
+								font: 800 14px 'Open Sans';
+							} // span
+							&:hover {
+								background: @cinza4;
+							} // :hover
+							svg {
+								width: 18px;
+								height: 18px;
+								fill: @branco;
+								margin-left: 7px;
+								position: relative;
+								top: 3px;
+							} // svg
+						} // button[type=""submit]
+					} // fieldset
+				} // .field-grande
+			} // fieldset
+		} // form
+		#mapa {
+			float: left;
+			width: 412px;
+			height: 412px;
+			margin-top: 162px;
+			position: relative;
+		} // #mapa
+	} // .content
+} // #contato

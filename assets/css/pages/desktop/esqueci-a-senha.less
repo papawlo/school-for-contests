@@ -1,0 +1,69 @@
+#esqueci-a-senha {
+	height: 624px;
+	margin-bottom: -170px;
+	.content {
+		.center(1170px);
+		.alinharVertical;
+		.header-padrao {
+			padding-bottom: 24px;
+			border-bottom: 1px solid @cinza3;
+			margin-bottom: 44px;
+		} // .header-padrao
+		form {
+			width: 769px;
+			fieldset {
+				&.field-legend {
+					margin-bottom: 29px;
+				} // .field-legend
+				&.field-input-label {
+					margin-bottom: 60px;
+				} // .field-input-label
+				&:last-child {
+					margin-bottom: 0;
+				} // :last-child
+				legend {
+					font: 600 22px/28px 'Open Sans';
+					color: @azul-claro;
+				} // legend
+				label {
+					font: 800 14px 'Open Sans';
+					color: @cinza4;
+					text-transform: uppercase;
+					display: block;
+					margin-bottom: 6px;
+				} // label
+				input[type="text"] {
+					width: 100%;
+					height: 52px;
+					border: 1px solid @cinza3;
+					.borderRadius(3px);
+					padding: 0 20px;
+					color: @cinza5;
+					font: 800 14px 'Open Sans';
+				} // input[type="text"]
+				button[type="submit"] {
+					.bt-padrao;
+					float: left;
+					width: 151px;
+					height: 51px;
+					background: @cinza5;
+					font: 800 14px 'Open Sans';
+					text-transform: uppercase;
+					color: @branco;
+					text-align: center;
+					&:hover {
+						background: @cinza4;
+					} // :hover
+					svg {
+						width: 18px;
+						height: 18px;
+						fill: @branco;
+						margin-left: 7px;
+						position: relative;
+						top: 3px;
+					} // svg
+				} // button[type=""submit]
+			} // fieldset
+		} // form
+	} // .content
+} // #esqueci-a-senha

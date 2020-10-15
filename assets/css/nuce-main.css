@@ -1,0 +1,226 @@
+@media (max-width: 767px) {
+    html[rel="base"] .Section-header {
+        margin-bottom: 0 !important;
+    }
+    html[rel="base"] .Section--product-header {
+        margin-bottom: 0 !important;
+    }
+    html[rel="base"] .Section-icon {
+        margin: 0 10px 0 25px !important;
+    }
+    html[rel="base"] .Section-button {
+        width: 85% !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    html[rel="base"] .Section--download-button {
+        border-radius: 4px;
+        text-transform: uppercase;
+        width: 170px;
+        height: 52px;
+        margin-top: 45px !important;
+        margin-bottom: 0 !important;
+        background: none repeat scroll 0% 0% #9E9E9E;
+        font: 800 14px/52px "Open Sans";
+        color: #FFF;
+        text-align: center;
+    }
+    html[rel="base"] .Section--download-button svg {
+        margin-left: 8px;
+        width: 14px;
+        height: 12px;
+        fill: #FFF;
+    }
+    html[rel="base"] .Section--product-button {
+        border-radius: 4px;
+        text-transform: uppercase;
+        width: 170px;
+        height: 52px;
+        background: none repeat scroll 0% 0% #C0353F;
+        font: 800 14px/52px "Open Sans";
+        color: #FFF;
+        text-align: center;
+    }
+    html[rel="base"] .Section--product-button svg {
+        margin-left: 8px;
+        width: 14px;
+        height: 12px;
+        fill: #FFF;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Form {
+        margin-bottom: 25px !important;
+    }
+    html[rel="base"] .Form--contato {
+        padding: 0 20px !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Card {
+        height: auto !important;
+    }
+    html[rel="base"] .Card-header {
+        height: 100px !important;
+    }
+    html[rel="base"] .Card-title {
+        max-width: 80% !important;
+    }
+    html[rel="base"] .Card-button {
+        float: none !important;
+        margin-bottom: 20px !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Header {
+        height: auto !important;
+        background-color: #fff !important;
+    }
+    html[rel="base"] .Header-logo {
+        margin-right: 10px !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Slider-content {
+        margin-top: 30px !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Promo {
+        height: 245px !important;
+        background-image: url("http://jobs.qualitare.com/nuce/wp-content/themes/nuce/assets/images/foto-mulher-cadastro.jpg") !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    html[rel="base"] .Promo-title {
+        width: 70% !important;
+        text-align: right !important;
+        font-size: 18px !important;
+    }
+    html[rel="base"] .Promo-title .bold, html[rel="base"] .Promo-title .regular {
+        font-size: inherit !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .News {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    html[rel="base"] .News-item {
+        float: none !important;
+        height: auto !important;
+        border-bottom: 1px solid #e6e6e6;
+        margin-bottom: 0 !important;
+        padding: 25px 0 !important;
+    }
+    html[rel="base"] .News-title {
+        font-size: 30px !important;
+    }
+    html[rel="base"] .News-teaser {
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Download {
+        padding-left: 5%;
+    }
+    html[rel="base"] .Download-item {
+        width: 45% !important;
+        height: 150px !important;
+        margin-right: 5% !important;
+        margin-bottom: 5% !important;
+    }
+    html[rel="base"] .Download-icon {
+        margin: 20px auto 10px !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Product-item {
+        height: auto !important;
+        padding: 45px 20px !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Footer {
+        height: auto !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Mail {
+        height: auto !important;
+        background-color: #fff;
+    }
+    html[rel="base"] .Mail-header {
+        margin-top: 40px !important;
+    }
+    html[rel="base"] .Mail-header:before {
+        margin-right: 0 !important;
+    }
+    html[rel="base"] .Mail-form {
+        transform: translateY(0) !important;
+    }
+    html[rel="base"] .Mail-icon {
+        margin: 0 10px 0 25px !important;
+    }
+    html[rel="base"] .Mail-title {
+        width: 70% !important;
+    }
+    html[rel="base"] .Mail-fieldEmail {
+        float: none !important;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 85% !important;
+    }
+    html[rel="base"] .Mail-btnSend {
+        float: none !important;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .Notice-header, html[rel="base"] .Notice-text, html[rel="base"] .Notice-font, html[rel="base"] .Notice-tags {
+        padding: 0 20px !important;
+    }
+    html[rel="base"] .Notice-others {
+        background-color: #f8f8f8;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .u-xs-noMargin {
+        margin: 0 0 0 0 !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .u-xs-noPadding {
+        padding: 0 0 0 0 !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .u-xs-sizeFull {
+        box-sizing: border-box !important;
+        display: block !important;
+        width: 100% !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .u-xs-blockCenter {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .u-xs-hidden {
+        display: none !important;
+    }
+}
+@media (max-width: 767px) {
+    html[rel="base"] .u-xs-visible {
+        display: block !important;
+    }
+}
+@media (min-width: 768px) {
+    html[rel="base"] .u-xs-visible {
+        display: none !important;
+    }
+}

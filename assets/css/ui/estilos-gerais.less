@@ -1,0 +1,210 @@
+.bt-padrao {
+	.borderRadius(4px);
+	text-transform: uppercase;
+} // .bt-padrao
+
+.header-padrao {
+	h2 {
+		font: 700 30px 'Open Sans';
+		color: @azul-claro;
+		text-transform: uppercase;
+	} // h2
+} // .header-padrao
+
+.svg-full {
+	width: 100%;
+	height: 100%;
+	display: block;
+} // .svg-full
+
+#cadastre-agora {
+	width: 100%;
+	height: 448px;
+	background: url(../images/foto-mulher-cadastro.jpg);
+	.backgroundSizeCover;
+	.content {
+		.center(1170px);
+		height: 100%;
+		.texto {
+			float: right;
+			width: 530px;
+			.alinharVertical;
+			header {
+				margin-bottom: 23px;
+				h2 {
+					font: 700 28px 'Open Sans';
+					color: @azul-claro;
+					text-transform: uppercase;
+					line-height: 39px;
+					.regular {
+						font: 400 28.5px 'Open Sans';
+						line-height: 39px;
+					} // .regular
+					.bold {
+						font: 700 40px 'Open Sans';
+						line-height: 39px;
+						display: block;
+					} // .bold
+				} // h2
+			} // header
+			h3 {
+				.center(439px);
+				font: 400 13px 'Open Sans';
+				color: @cinza5;
+				text-align: center;
+				margin-bottom: 48px;
+			} // h3
+			.saiba-mais {
+				.bt-padrao;
+				font: 800 18px/62px 'Open Sans';
+				color: @branco;
+				text-transform: uppercase;
+				text-align: center;
+				background: @azul-claro;
+				.center(269px);
+				display: block;
+				height: 62px;
+				&:hover {
+					background: @azul-escuro;
+				} // :hover
+				svg {
+					width: 22px;
+					height: 18px;
+					fill: @branco;
+					position: relative;
+					top: 1px;
+					margin-left: 14px;
+				} // svg
+			} // .saiba-mais
+		} // .texto
+	} // .content
+} // #cadastre-agora
+
+.conteudo-padrao {
+	> *:last-child {
+		margin-bottom: 0;
+	} // :last-child
+	> *:nth-last-child(2) {
+		margin-bottom: 48px;
+	} // :nth-last-child(1)
+	p {
+		font: 400 16px/24px 'Open Sans';
+		color: @cinza5;
+		margin-bottom: 25px;
+	} // p
+	> h1, > h2, > h3, > h4, > h5, > h6 {
+		font: 600 16px 'Open Sans';
+		color: @vermelho-claro;
+		text-transform: uppercase;
+		margin-bottom: 1px;
+	} // h's
+	ul, ol {
+		margin-bottom: 21px;
+		li {
+			font: 400 16px/24px 'Open Sans';
+			color: @vermelho-claro;
+		} // li
+	} // ul, ol
+	ol {
+		padding-left: 22px;
+	} // ol
+	img, iframe {
+		.alinharHorizontal;
+		margin-bottom: 24px;
+	} // img, iframe
+} // .conteudo
+
+#mensagens-de-retorno {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;	
+	.overlay {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		z-index: 1;
+	} // .overlay
+	.box {
+		width: 100px;
+		height: 100px;
+		background: @branco;
+		position: absolute;
+		z-index: 2;
+		width: 712px;
+		height: 469px;
+		.borderRadius(3px);
+		left: 50%;
+		top: 50%;
+		margin-left: -712px / 2;
+		margin-top: -469px / 2;
+		-webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.20);
+		-moz-box-shadow:    0px 0px 7px 0px rgba(0, 0, 0, 0.20);
+		box-shadow:         0px 0px 7px 0px rgba(0, 0, 0, 0.20);
+		text-align: center;
+		h3 {
+			display: inline-block;
+			.alinharVertical;
+			font: 700 33px/33.51px 'Open Sans';
+			text-transform: uppercase;
+			width: 348px;
+			&:before {
+				width: 138px;
+				height: 138px;
+				.alinharHorizontal;
+				margin-bottom: 23px;
+				.backgroundSize(138px, 138px)!important;
+			} // :before
+		} // h3
+	} // .box
+	&.sucesso {
+		.box {
+			h3 {
+				color: @azul-claro;
+				&:before {
+					background: url(../images/icone-confirmacao-mensagem.svg);
+				} // :before
+			} // h3
+		} // .box
+	} // .sucesso
+	&.erro {
+		.box {
+			h3 {
+				color: @vermelho-claro;
+				&:before {
+					background: url(../images/icone-erro-mensagem.svg);
+				} // :before
+			} // h3
+		} // .box
+	} // .erro
+} // #mensagens-de-retorno
+
+em.error {
+	position: absolute;
+	right: 0;
+	top: -28px;
+	background: @vermelho-claro;
+	padding: 0 8px;
+	height: 30px;
+	font: 700 12px/30px 'Open Sans';
+	color: @branco;
+	&:after {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(192, 53, 63, 0);
+		border-top-color: #c0353f;
+		border-width: 8px;
+		margin-left: -8px;
+	} // :after
+} // em.error
